@@ -1,0 +1,133 @@
+body {
+  font-family: georgia,"times new roman",times,serif;
+  font-weight: 400;
+  font-size: 62.5%;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin: 0;
+  font-family: 'Playfair Display SC', serif;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin: 1em 0;
+}
+
+h3 {
+  font-size: 1.6rem;
+  margin: 1.6em 0 1em;
+}
+
+h4 {
+  font-size: 1.3rem;
+  margin: 2em 0 1em;
+}
+
+ul {
+  margin-bottom: 1.4em;
+}
+
+p, ul, li, blockquote {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+li {
+  font-size: 1.1rem;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+blockquote {
+  margin: 1em 0 1.5em 0;
+  font-size: 1.1rem;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-indent: -0.6rem;
+  font-style: italic;
+  /*border-left: 2px solid #e8e8e8;*/
+}
+
+blockquote:before {
+  content: '“';
+}
+
+blockquote:after {
+  content: '”';
+}
+
+a {
+  color: #2e2ea2;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+figure {
+  width: 100%;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+}
+
+figcaption {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  font-size: 2.4rem;
+  mix-blend-mode: hard-light;
+  padding-right: 20px;
+}
+
+figcaption:after {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, transparent, gray);
+}
+
+#container {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  /*width: 100%;*/
+  max-width: 600px;
+}
+
+@media only screen
+  and (min-width: 480px) {
+
+    #container {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin: 1em 0;
+    }
+
+    .scotch-rule {
+      margin: 4em auto 0;
+      width: 33%;
+      height: 1px;
+      background-color: #999;
+    }
+}
